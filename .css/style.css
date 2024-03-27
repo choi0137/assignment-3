@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: #000 ;
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+} 
+
+span {
+font-size:2rem;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.hero{
+  height: 600px;
+ }
+
+img {
+   width: 100% ;
+   align-items: center;
+   filter: grayscale(70%);
+}
+
+h1{
+    max-width: 60%;
+    background-color: rgba(0, 0, 0,.5); 
+    text-shadow: 10;
+    display: flexbox;
+    align-items: center;
+}
+
+.about-me{
+
+}
+
+.wrapper {
+    max-width: 940px;
+}
+
+ .services{
+
+ }
+
+ .work{
+
+ }
+
+ footer{
+
+ }

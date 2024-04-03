@@ -17,6 +17,7 @@ header {
 .wrapper {
     max-width: 940px;
     margin: 0 auto;
+    align-items: center;
 }
 
 img{
@@ -67,46 +68,65 @@ header ul li {
     background-color: rgba(0, 0, 0,.5); 
     text-shadow: 2px 2px 6px #000;
     justify-content:left;
-    padding: 10px;
+    padding: 3px;
+    font-size: 4rem;
 }
+
 
 #about-me .grid2-1{
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
+    padding-top: 60px;
 }
 
-#about-me div{
+#about-me img{
     align-self: self-end;
     
 }
 
+#about-me h2{
+    font-size: 2rem;
+    padding-left: 25px;
+}
 
+#about-me p {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
 
-/* .grid2-1 {
-    background-color: #fafafa;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
- }
+.grey-bg {
+        background-color: #fafafa;
+}
 
-.grid2-pic {
-    align-self: end;
-} */
-
-
-.grid3-1{
+#services{
     background-color:#fafafa;
+    padding-top: 20px;
+}
+
+#services h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.grid3-1{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     gap: 2em;
-    padding-bottom: 2em;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .grid3-1 article{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: #fff;
+    color: #000;
+    border-color: black;
+    font-size: .8rem;
+    margin-bottom: 20px;
+    padding: 0px 10px 10px 10px;
+
 }
 
 .grid3-1 a:link, 
@@ -114,29 +134,57 @@ header ul li {
     margin-top: auto;
     background-color: #000;
     color: #fff;
+    border-color: black;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     border-radius: 4px;
 }
 
 .grid3-1 a:hover, 
 .grid3-1 a:focus {
-    color: #fff;
-    background-color: #000;
+    background-color: #fff;
+    color: #000;
+    border-color: black;
 }
 
-#work h2{
+.grid3-1 h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#work{
+    padding-top: 50px;
+}
+
+#work .wrapper p {
+    align-items: center;
+    font-size: 1rem;
+
+}
+
+#work .wrapper h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#work p{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+#work{
     text-align: center;
 }
 
 .gallery {
-
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: 
     "div1 div1 div1 div2 div2 div2"
     "div3 div3 div4 div4 div5 div5" ;
-    padding-bottom: 5px;
+    padding-bottom: 45px;
+    padding-top: 10px;;
 }
 
 .gallery img:nth-child(1){
@@ -167,4 +215,6 @@ footer{
     background-color:black;
     color: #fff;
     text-align: center;
+    padding: 10px 10px;
 }
+
